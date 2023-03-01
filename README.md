@@ -1,4 +1,4 @@
-# JavaScript Data Visualization
+# JavaScript Data-Visualization
 
 There are plenty of libraries for data visualisation. The top languages for this task are Java, C and Python based on TIOBE Index.
 
@@ -9,4 +9,3 @@ For this Demo I wanted to try one of the Javascript Libraries. You will find mor
 For no reason I took [D3JS](https://d3js.org/). You can embed the cdn link into your HTML and start coding.
 
 You will find more information in the comments
-# Javascript-Data-Visualisation
