@@ -1,4 +1,4 @@
-# JavaScript Data-Visualization
+# JavaScript Data-Visualisation
 
 There are plenty of libraries for data visualisation. The top languages for this task are Java, C and Python based on TIOBE Index.
 
