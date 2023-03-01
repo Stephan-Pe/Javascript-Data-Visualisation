@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3js</title>
+    <style>
+        /**
+        * you can add styles in D3JS or in your style sheet
+        */
+        .bar {
+            fill: navy;
+            cursor: pointer;
+            transition: all 300ms ease;
+        }
+
+        .simple {
+            color: seagreen;
+            font-family: sans-serif;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .simple:hover,
+        .simple:focus {
+            color: plum;
+            text-decoration: underline;
+        }
+
+        .bar:hover,
+        .bar:focus {
+            fill: darkcyan;
+            stroke: darkcyan;
+            stroke-width: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to Data Visulization!</h1>
+    <!-- The content will appear where the containers are -->
+    <svg width="900" height="600" id="mysvg">
+        <title></title>
+    </svg>
+
+    <div></div>
+    <!-- Your script comes last -->
+    <script type="module" src="https://d3js.org/d3.v7.min.js" defer></script>
+    <script type="module" src="main.js" defer></script>
+
+</body>
+
+</html>
